@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo-List</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/jpg" href="img/desenho.svg" />
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</head>
+<nav id="menu-nav">
+  <a href="../../index.html">Home</a> |
+  <a href="../color-guess/index.html">color-guess</a> |    
+  <a href="../todo-list/index.html">todo-list</a> |
+  <a href="../pixels-art/index.html">paleta de cores</a> |
+  <a href="../meme-generator/index.html">meme-generator</a>
+</nav>
+
+<body class="container-fluid">
+  <div id="container-principal" class="display-flex-column">
+    <header>Minha Lista de Tarefas</header>
+    <main id="container-main" class="display-flex-column">
+      <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+      <section id="container-secundario" class="display-flex-column">
+        <div id="input-text-container">
+          <input id="texto-tarefa" type="text" maxlength="50">
+        </div>
+        
+        <div id="btn-container">
+          <button id="criar-tarefa" class="btn-game">Criar</button>
+          <button id="salvar-tarefas" class="btn-game">Salvar Tarefas</button>
+          <button id="mover-cima" class="btn-game">Cima</button>
+          <button id="mover-baixo" class="btn-game">Baixo</button>
+          <button id="apaga-tudo" class="btn-game">Apagar Tudo</button>
+          <button id="remover-finalizados" class="btn-game">Remover Finalizados</button>        
+          <button id="remover-selecionado" class="btn-game">Remover Selecionado</button>
+        </div>
+        
+      </section>
+  
+      <section id="tarefas-container">
+        <ol id="lista-tarefas">
+        </ol>
+      </section>
+      
+    </main>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

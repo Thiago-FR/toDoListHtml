@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Fredoka One', cursive;
+}
+
+header {
+  text-transform: uppercase;
+  margin: 15px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+input#texto-tarefa {
+  background-image: url('img/icon-text.png');
+  background-size: 20px;
+}
+
+div#btn-container button {
+  margin: 5px 5px;
+}
+
+div#btn-container button#mover-cima {
+  background-image: url('img/icon-seta.png');
+  background-size: 25px;
+}
+
+div#btn-container button#mover-baixo {
+  background-image: url('img/icon-seta2.png');
+  background-size: 25px;  
+}
+
+ol {
+  padding-left: 1em;
+}
+
+#lista-tarefas li{
+  padding: 5px 0;
+  padding-left: 15px;
+  border: 1px solid black;
+}
+
+#container-principal {
+  background-color: rgb(233, 252, 128);
+  width: 800px;
+  height: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#input-text-container {
+  text-align: center;
+}
+
+#btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+#texto-tarefa {
+  width: 480px;
+  margin: 10px 0;
+  padding-left: 40px;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+#tarefas-container {
+  margin-top: 20px;
+  width: 500px;
+}
+
+#mover-cima {
+  padding-right: 30px;
+  background-repeat: no-repeat;
+  background-position: 62px;
+}
+
+#mover-baixo {
+  padding-right: 30px;
+  background-repeat: no-repeat;
+  background-position: 62px;
+}
+
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-game {
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(35, 139, 199);
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 5px rgb(112, 107, 107);
+}
+
+.btn-game:hover {
+  background-color: rgb(214, 205, 152, .5);
+}
+
+.btn-game:active {
+  margin-left: 3px;
+  margin-top: 3px;
+  box-shadow: 2px 2px 2px rgb(112, 107, 107);
+}
+
+@media screen and (max-width: 920px) {
+  #container-principal {
+    width: 470px;
+    height: 670px;
+  }
+
+  #texto-tarefa {
+    width: 450px;
+  }
+
+  #tarefas-container {
+    width: 450px;
+  }
+}
+
+/* Menu Navegação */ 
+
+#menu-nav {
+  text-align: center;
+  padding: 25px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+#menu-nav a {
+  font-family: 'Stick No Bills', sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  transition: 1s;
+  font-size: 20px;
+}
+
+#menu-nav a:hover {
+  font-size: 22px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, .05);
+  padding: 10px;
+}

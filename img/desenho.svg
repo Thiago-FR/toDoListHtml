@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="123.73792mm"
+   height="115.68061mm"
+   viewBox="0 0 123.73792 115.68061"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (1:1.1+202106031931+af4d65493e)"
+   sodipodi:docname="desenho.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.47393378"
+     inkscape:cx="214.16494"
+     inkscape:cy="245.81493"
+     inkscape:window-width="1294"
+     inkscape:window-height="704"
+     inkscape:window-x="242"
+     inkscape:window-y="747"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-48.339066,-39.278141)">
+    <ellipse
+       style="fill:#ffff00;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       id="path31"
+       cx="110.20802"
+       cy="97.118446"
+       rx="61.868958"
+       ry="57.840305" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.0183px;line-height:1.25;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.65046"
+       x="66.593628"
+       y="114.14706"
+       id="text2337"
+       transform="scale(0.96275996,1.0386805)"><tspan
+         sodipodi:role="line"
+         id="tspan2335"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.0183px;font-family:Dyuthi;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.65046"
+         x="66.593628"
+         y="114.14706">List</tspan></text>
+  </g>
+</svg>
