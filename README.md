@@ -1,4 +1,4 @@
-* [PROJETO](https://thiago-fr.github.io/MemeGenerator/)
+* [PROJETO](https://thiago-fr.github.io/toDoListHtml/)
 
 # Boas vindas ao repositório do projeto Lista de Tarefas! <a name="boas-vindas-ao-repositorio-do-projeto-pixels-arte"></a>
 
@@ -33,5 +33,5 @@
   * Entre na pasta do repositório que você acabou de clonar
 
 2. Ou click no link abaixo e veja funcionando.
-  * [PROJETO](https://thiago-fr.github.io/MemeGenerator/)
+  * [PROJETO](https://thiago-fr.github.io/toDoListHtml/)
 
