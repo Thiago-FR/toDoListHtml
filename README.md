@@ -29,7 +29,7 @@
 ## Para testar o projeto <a name="testar-o-projeto"></a>
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-015-a-project-pixels-art.git`
+  * `git clone git@github.com:Thiago-FR/toDoListHtml.git`
   * Entre na pasta do repositório que você acabou de clonar
 
 2. Ou click no link abaixo e veja funcionando.
