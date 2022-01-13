@@ -6,7 +6,7 @@
 
 # Sumário <a name="sumario"></a>
 
-- [Boas vindas ao repositório do projeto Trybe Wallet!](#boas-vindas-ao-repositorio-do-projeto-pixels-arte)
+- [Boas vindas ao repositório do projeto Lista de Tarefas!](#boas-vindas-ao-repositorio-do-projeto-pixels-arte)
 - [Sumário](#sumario)
 - [Habilidades desenvolvidas](#habilidades)
 - [O que foi desenvolvido](#o-que-foi-desenvolvido)
